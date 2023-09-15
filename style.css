@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+input::-webkit-outer-spin-button, /*убрать стрелки в input type="number"*/
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+html,
+body {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+.fullscreen {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("./bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.circle-button {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.expanded-button {
+  position: absolute;
+  width: auto;
+  height: 38px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all 0.3s ease;
+}
+
+.expanded-button::before {
+  content: "-";
+  margin-right: 15px;
+}
+
+.green {
+  background-color: #6abf4b;
+  border: 1px solid #6abf4b;
+}
+
+.blue {
+  background-color: #3877ee;
+  border: 1px solid #3877ee;
+}
+
+.btn1 {
+  top: 482px;
+  left: 687px;
+}
+
+.btn2 {
+  top: 404px;
+  left: 1148px;
+}
+
+.btn3 {
+  top: 790px;
+  left: 1107px;
+}
+
+.btn4 {
+  top: 669px;
+  left: 1306px;
+}
+
+.btn5 {
+  top: 282px;
+  left: 580px;
+}
+
+.btn6 {
+  top: 714px;
+  left: 446px;
+}
+
+.btn7 {
+  top: 629px;
+  left: 1081px;
+}
+
+.btn8 {
+  top: 225px;
+  left: 1373px;
+}
+
+.btn9 {
+  top: 475px;
+  left: 1414px;
+}
+
+.btn10 {
+  top: 713px;
+  left: 1593px;
+}
